@@ -6,7 +6,7 @@ const Resume: React.FC = () => {
   return (
     <section
       id="resume"
-      className="min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500 text-white py-16"
+      className="min-h-screen bg-linear-to-r from-cyan-900 to-blue-900 text-white py-16"
     >
       <div className="container mx-auto px-6 lg:px-12">
         {/* Section Title */}
@@ -24,7 +24,7 @@ const Resume: React.FC = () => {
           <div className="space-y-8">
             {/* Summary */}
             <div className="bg-white/10 backdrop-blur rounded-2xl p-6 shadow-md">
-              <h3 className="text-2xl font-semibold text-[var(--red)] mb-4">
+              <h3 className="text-2xl font-semibold text-pink-300 mb-4">
                 Summary
               </h3>
               <h4 className="text-xl font-bold">Artur Karapetyan</h4>
@@ -48,7 +48,7 @@ const Resume: React.FC = () => {
 
             {/* Education */}
             <div className="bg-white/10 backdrop-blur rounded-2xl p-6 shadow-md">
-              <h3 className="text-2xl font-semibold text-[var(--red)] mb-6">
+              <h3 className="text-2xl font-semibold text-pink-300 mb-6">
                 Education
               </h3>
               <div className="space-y-8">
@@ -89,7 +89,7 @@ const Resume: React.FC = () => {
           <div className="space-y-8">
             {/* Experience */}
             <div className="bg-white/10 backdrop-blur rounded-2xl p-6 shadow-md">
-              <h3 className="text-2xl font-semibold text-[var(--red)] mb-6">
+              <h3 className="text-2xl font-semibold text-pink-300 mb-6">
                 Professional Experience
               </h3>
               <div className="space-y-8">

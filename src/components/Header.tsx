@@ -44,7 +44,7 @@ const Header: React.FC = () => {
 
       {/* Sidebar (appears only when menuOpen is true) */}
       {menuOpen && (
-        <aside className="fixed top-0 left-0 h-screen w-64 bg-[var(--light-blue)] text-white p-6 z-40 transform animate-slide-in">
+        <aside className="fixed top-0 left-0 h-screen w-64 bg-linear-to-r from-cyan-900 to-blue-900 text-white p-6 z-40 transform animate-slide-in">
           {/* Close button */}
           <div className="flex justify-end">
             <button onClick={() => setMenuOpen(false)}>

@@ -27,7 +27,7 @@ const skillsRight: Skill[] = [
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="min-h-screen bg-linear-to-r from-cyan-500 to-blue-500 text-white py-12">
+    <section id="skills" className="min-h-screen bg-linear-to-r from-cyan-900 to-blue-900 text-white py-12">
       <div className="container mx-auto px-4">
         {/* Section Title */}
         <div className="text-center mb-12">

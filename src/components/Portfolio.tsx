@@ -9,7 +9,7 @@ interface PortfolioItem {
   id: number;
   title: string;
   category: string;
-  images: string[]; 
+  images: string[];
   link: string;
 }
 
@@ -23,58 +23,108 @@ const portfolioItems: PortfolioItem[] = [
   },
   {
     id: 2,
-    title: "Fun Puzzle Game",
+    title: "Tic Tac Toe",
     category: "Games",
-    images: ["/images/portfolio/game1.jpg", "/images/portfolio/game2.jpg"],
-    link: "https://example.com/game",
+    images: ["/games/game-1.png", "/games/game-1-1.png", "/games/game-1-2.png", "/games/game-1-3.png"],
+    link: "https://tic-tac-toe-next-theta.vercel.app/",
   },
   {
     id: 3,
-    title: "Corporate Website",
+    title: "Welcome To Cyprus",
     category: "Web",
-    images: ["/images/portfolio/web1.jpg", "/images/portfolio/web2.jpg"],
-    link: "https://example.com/web",
+    images: ["/web/web-1.png", "/web/web-1-1.png", "/web/web-1-2.png", "/web/web-1-3.png"],
+    link: "https://welcometo-cyprus-8g19.vercel.app/",
   },
   {
     id: 4,
-    title: "Portfolio Template",
+    title: "Natours",
     category: "Template",
-    images: ["/images/portfolio/template1.jpg"],
-    link: "https://example.com/template",
+    images: ["/templates/temp-1.png", "/templates/temp-1-1.png", "/templates/temp-1-2.png", "/templates/temp-1-3.png", "/templates/temp-1-4.png", "/templates/temp-1-5.png", "/templates/temp-1-6.png"],
+    link: "https://natours-website-sass.vercel.app/",
   },
   {
     id: 5,
-    title: "Professional Book",
-    category: "Professional books for free download",
-    images: ["/images/portfolio/book1.jpg"],
-    link: "https://example.com/book",
+    title: "Battleship",
+    category: "Games",
+    images: ["/games/game-2.png", "/games/game-2-1.png", "/games/game-2-2.png", "/games/game-2-3.png"],
+    link: "https://naval-clash-game.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Global HR Advisors",
+    category: "Web",
+    images: ["/web/web-2.png", "/web/web-2-1.png", "/web/web-2-2.png", "/web/web-2-3.png"],
+    link: "https://globalhradvisors.com/",
+  },
+  {
+    id: 7,
+    title: "Lyma - E-commerce Site",
+    category: "Template",
+    images: ["/templates/temp-2.png", "/templates/temp-2-1.png", "/templates/temp-2-2.png", "/templates/temp-2-3.png"],
+    link: "https://lyma-website.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Abaro - Customs brokerage service",
+    category: "Web",
+    images: ["/web/web-3.png", "/web/web-3-1.png", "/web/web-3-2.png", "/web/web-3-3.png"],
+    link: "https://abaro.am/indexEng.html#",
+  },
+  {
+    id: 9,
+    title: "Unsplash Image Search",
+    category: "App",
+    images: ["/app/app-2.png", "/app/app-2-1.png", "/app/app-2-2.png", "/app/app-2-3.png"],
+    link: "https://upolad-images-react.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Real Construction",
+    category: "Web",
+    images: ["/web/web-4.png", "/web/web-4-1.png", "/web/web-4-2.png", "/web/web-4-3.png", "/web/web-4-4.png", "/web/web-4-5.png", "/web/web-4-6.png", "/web/web-4-7.png", "/web/web-4-8.png", "/web/web-4-9.png", "/web/web-4-10.png", "/web/web-4-11.png", "/web/web-4-12.png"],
+    link: "https://private-page-five.vercel.app/",
+  },
+  {
+    id: 11,
+    title: "Toy store",
+    category: "Template",
+    images: ["/templates/temp-3.png", "/templates/temp-3-1.png", "/templates/temp-3-2.png"],
+    link: "https://toy-store-template.vercel.app/",
+  },
+  {
+    id: 12,
+    title: "Glossy Touch",
+    category: "Template",
+    images: ["/templates/temp-4.png", "/templates/temp-4-1.png", "/templates/temp-4-2.png", "/templates/temp-4-3.png"],
+    link: "https://glossy-touch-template.vercel.app/",
+  },
+  {
+    id: 13,
+    title: "Tiya Golf Club",
+    category: "Template",
+    images: ["/templates/temp-4.png", "/templates/temp-4-1.png", "/templates/temp-4-2.png", "/templates/temp-4-3.png"],
+    link: "https://glossy-touch-template.vercel.app/",
   },
 ];
 
 export default function Portfolio() {
   const [activeFilter, setActiveFilter] = useState<string>("*");
+  const [visibleCount, setVisibleCount] = useState<number>(6);
   const [lightbox, setLightbox] = useState({
     isOpen: false,
     images: [] as string[],
     index: 0,
   });
 
-  // ✅ New menu of filters
-  const filters = [
-    "*",
-    "App",
-    "Games",
-    "Web",
-    "Template",
-    "Professional books for free download",
-  ];
+  const filters = ["*", "App", "Games", "Web", "Template"]; // ✅ removed Professional books
 
   const filteredItems =
     activeFilter === "*"
       ? portfolioItems
       : portfolioItems.filter((item) => item.category === activeFilter);
 
-  // ✅ Lightbox functions
+  const visibleItems = filteredItems.slice(0, visibleCount);
+
   const openLightbox = (images: string[], index: number) => {
     setLightbox({ isOpen: true, images, index });
   };
@@ -98,19 +148,27 @@ export default function Portfolio() {
   };
 
   return (
-    <section id="portfolio" className="min-h-screen py-16 bg-linear-to-r from-cyan-500 to-blue-500">
+    <section
+      id="portfolio"
+      className="min-h-screen py-16 bg-linear-to-r from-cyan-900 to-blue-900"
+    >
       <div className="container mx-auto px-6 lg:px-20">
-        <h2 className="text-3xl font-bold text-center mb-12 text-white">My Portfolio</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 text-white pt-20">
+          My Portfolio
+        </h2>
 
         {/* Filters */}
         <div className="flex justify-center gap-4 mb-10 flex-wrap">
           {filters.map((filter) => (
             <button
               key={filter}
-              onClick={() => setActiveFilter(filter)}
+              onClick={() => {
+                setActiveFilter(filter);
+                setVisibleCount(6); // reset visible count on filter change
+              }}
               className={`px-5 py-2 rounded-full border transition ${
                 activeFilter === filter
-                  ? "bg-indigo-600 text-white border-indigo-600"
+                  ? "bg-[var(--red)] text-white border-none"
                   : "bg-white text-gray-700 border-gray-300 hover:bg-gray-100"
               }`}
             >
@@ -121,12 +179,11 @@ export default function Portfolio() {
 
         {/* Portfolio grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredItems.map((item) => (
+          {visibleItems.map((item) => (
             <div
               key={item.id}
               className="group relative bg-white rounded-xl overflow-hidden shadow-lg"
             >
-              {/* Show only first image as thumbnail */}
               <Image
                 src={item.images[0]}
                 alt={item.title}
@@ -136,8 +193,7 @@ export default function Portfolio() {
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-4 transition">
-                {/* Open Lightbox with this project’s images */}
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-4 transition">
                 <button
                   onClick={() => openLightbox(item.images, 0)}
                   className="p-3 bg-white rounded-full hover:bg-gray-100"
@@ -145,18 +201,16 @@ export default function Portfolio() {
                   <Plus className="w-6 h-6 text-gray-800" />
                 </button>
 
-                {/* External link */}
                 <a
                   href={item.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 bg-white rounded-full hover:bg-gray-100"
+                  className="p-3 bg-white rounded-full"
                 >
                   <ExternalLink className="w-6 h-6 text-gray-800" />
                 </a>
               </div>
 
-              {/* Title */}
               <div className="p-4">
                 <h3 className="font-semibold text-lg">{item.title}</h3>
                 <p className="text-sm text-gray-500">{item.category}</p>
@@ -164,9 +218,20 @@ export default function Portfolio() {
             </div>
           ))}
         </div>
+
+        {/* Show More button */}
+        {visibleCount < filteredItems.length && (
+          <div className="flex justify-center mt-10">
+            <button
+              onClick={() => setVisibleCount((prev) => prev + 6)}
+              className="px-6 py-3 bg-[var(--red)] text-white rounded-full hover:bg-red-700 transition"
+            >
+              Show More
+            </button>
+          </div>
+        )}
       </div>
 
-      {/* ✅ Lightbox */}
       <Lightbox
         state={lightbox}
         onClose={closeLightbox}
@@ -176,6 +241,7 @@ export default function Portfolio() {
     </section>
   );
 }
+
 
 
 

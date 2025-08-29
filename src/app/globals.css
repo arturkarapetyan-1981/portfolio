@@ -32,9 +32,9 @@ body {
   position: absolute;
   top: -100%;
   writing-mode: vertical-rl;
-  color: #d1d5db; /* light gray */
+  color: #16bc10; /* light gray */
   font-family: monospace;
-  font-size: 1rem;
+  font-size: 30px;
   white-space: nowrap;
   animation: plain-fall linear infinite;
   opacity: 0.8;
@@ -43,14 +43,14 @@ body {
 @keyframes plain-fall {
   0% {
     transform: translateY(-100%);
-    opacity: 0.4;
+    opacity: 1;
   }
   50% {
-    opacity: 0.9;
+    opacity: 1;
   }
   100% {
     transform: translateY(100vh);
-    opacity: 0.4;
+    opacity: 1;
   }
 }
 

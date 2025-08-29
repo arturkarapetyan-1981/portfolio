@@ -44,7 +44,7 @@ const Certificates: React.FC = () => {
   return (
     <section
       id="certificates"
-      className="w-full min-h-screen flex items-center bg-linear-to-r from-cyan-500 to-blue-500 py-10"
+      className="w-full min-h-screen flex items-center bg-linear-to-r from-cyan-900 to-blue-900 py-10"
     >
       <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         
@@ -73,7 +73,7 @@ const Certificates: React.FC = () => {
 
         {/* Certificates Info */}
         <div className="w-full space-y-6">
-          <h2 className="text-3xl font-bold text-gray-800 border-b-4 border-white inline-block pb-2">
+          <h2 className="text-3xl font-bold text-white border-b-4 border-white inline-block pb-2">
             My Certificates
           </h2>
           <ul className="space-y-3 text-lg text-gray-200">

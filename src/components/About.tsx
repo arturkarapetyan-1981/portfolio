@@ -21,12 +21,12 @@ const About: React.FC = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center bg-linear-to-r from-cyan-500 to-blue-500 text-white px-6 lg:px-20 py-12"
+      className="min-h-screen flex items-center bg-linear-to-r from-cyan-900 to-blue-900 text-white px-6 lg:px-20 py-12"
     >
       <div className="w-full max-w-6xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-gray-800">About</h2>
+          <h2 className="text-4xl font-bold mb-4 text-white">About</h2>
           <p className="text-lg italic text-gray-200">
             In order to be irreplaceable, one must always be different – Coco Chanel
           </p>

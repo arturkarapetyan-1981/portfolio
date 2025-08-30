@@ -102,9 +102,38 @@ const portfolioItems: PortfolioItem[] = [
     id: 13,
     title: "Tiya Golf Club",
     category: "Template",
-    images: ["/templates/temp-4.png", "/templates/temp-4-1.png", "/templates/temp-4-2.png", "/templates/temp-4-3.png"],
-    link: "https://glossy-touch-template.vercel.app/",
+    images: ["/templates/temp-5.png", "/templates/temp-5-1.png", "/templates/temp-5-2.png", "/templates/temp-5-3.png", "/templates/temp-5-4.png", "/templates/temp-5-5.png"],
+    link: "https://tiya-golf-club-template.vercel.app/",
   },
+  {
+    id: 14,
+    title: "Student",
+    category: "Web",
+    images: ["/web/web-5.png", "/web/web-5-1.png", "/web/web-5-2.png", "/web/web-5-3.png"],
+    link: "https://student-house-2ika.vercel.app/",
+  },
+  {
+    id: 15,
+    title: "Pacman",
+    category: "Games",
+    images: ["/games/game-3.png", "/games/game-3-1.png", "/games/game-3-2.png", "/games/game-3-3.png"],
+    link: "https://pacman-js-one.vercel.app/",
+  },
+  {
+    id: 16,
+    title: "TTS Audio Generator",
+    category: "App",
+    images: ["/app/app-3.png", "/app/app-3-1.png", "/app/app-3-2.png", "/app/app-3-3.png", "/app/app-3-4.png", "/app/app-3-5.png"],
+    link: "https://tts-audio-generator.vercel.app/",
+  },
+  {
+    id: 17,
+    title: "QR Code Generator",
+    category: "App",
+    images: ["/app/app-4.png", "/app/app-4-1.png", "/app/app-4-2.png", "/app/app-4-3.png"],
+    link: "https://qr-code-generator-9tfi.vercel.app/",
+  }
+
 ];
 
 export default function Portfolio() {

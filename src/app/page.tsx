@@ -5,6 +5,7 @@ import Certificates from "@/components/Certificates";
 import Skills from "@/components/Skills";
 import Resume from "@/components/Resume";
 import Portfolio from "@/components/Portfolio";
+import Books from "@/components/Books";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Certificates />
         <Resume />
         <Portfolio />
+        <Books />
       </div>
     </main>
   );

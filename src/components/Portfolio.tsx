@@ -132,7 +132,29 @@ const portfolioItems: PortfolioItem[] = [
     category: "App",
     images: ["/app/app-4.png", "/app/app-4-1.png", "/app/app-4-2.png", "/app/app-4-3.png"],
     link: "https://qr-code-generator-9tfi.vercel.app/",
-  }
+  },
+  {
+    id: 18,
+    title: "Todo List",
+    category: "App",
+    images: ["/app/app-5.png", "/app/app-5-1.png", "/app/app-5-2.png", "/app/app-5-3.png"],
+    link: "https://todo-app-react-nac5.vercel.app/",
+  },
+  {
+    id: 19,
+    title: "Gallery of Metal Art",
+    category: "Web",
+    images: ["/web/web-6.png", "/web/web-6-1.png", "/web/web-6-2.png", "/web/web-6-3.png", "/web/web-6-4.png", "/web/web-6-5.png", "/web/web-6-6.png"],
+    link: "https://sculpture-website-m261.vercel.app/",
+  },
+  {
+    id: 20,
+    title: "Photo Editor",
+    category: "App",
+    images: ["/app/app-6.png", "/app/app-6-1.png", "/app/app-6-2.png", "/app/app-6-3.png", "/app/app-6-4.png", "/app/app-6-5.png"],
+    link: "https://photo-editor-js-ten.vercel.app/",
+  },
+
 
 ];
 

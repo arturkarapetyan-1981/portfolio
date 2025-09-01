@@ -44,7 +44,7 @@ const Certificates: React.FC = () => {
   return (
     <section
       id="certificates"
-      className="w-full min-h-screen flex items-center bg-linear-to-r from-cyan-900 to-blue-900 py-10"
+      className="w-full min-h-screen flex items-center bg-linear-to-r from-cyan-900 to-blue-900 py-32"
     >
       <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         

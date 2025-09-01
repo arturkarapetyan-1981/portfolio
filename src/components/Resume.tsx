@@ -6,12 +6,12 @@ const Resume: React.FC = () => {
   return (
     <section
       id="resume"
-      className="min-h-screen bg-linear-to-r from-cyan-900 to-blue-900 text-white py-16"
+      className="min-h-screen bg-linear-to-r from-cyan-900 to-blue-900 text-white py-32"
     >
       <div className="container mx-auto px-6 lg:px-12">
         {/* Section Title */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-6 mt-20">Resume</h2>
+          <h2 className="text-4xl font-bold mb-6">Resume</h2>
           <p className="max-w-2xl mx-auto italic">
             Education is the passport to the future, for tomorrow belongs to
             those who prepare for it today. – Malcolm X

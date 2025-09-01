@@ -20,7 +20,7 @@ const bookItems: BookItem[] = [
     author: "Брайсона Пейна",
     category: "Java",
     images: ["/books/russian/book-1.jpg"],
-    link: "https://fzrovy24kbygdx6o.public.blob.vercel-storage.com/%D0%9B%D0%B5%D0%B3%D0%BA%D0%B8%D0%B8%CC%86%20%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%20%D0%B2%D1%8B%D1%83%D1%87%D0%B8%D1%82%D1%8C%20Java.pdf",
+    link: "https://bve4fx8gd6d7sxrl.public.blob.vercel-storage.com/%D0%9B%D0%B5%D0%B3%D0%BA%D0%B8%D0%B8%CC%86%20%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%20%D0%B2%D1%8B%D1%83%D1%87%D0%B8%D1%82%D1%8C%20Java.pdf",
     language: "Russian",
   },
   {
@@ -29,7 +29,7 @@ const bookItems: BookItem[] = [
     author: "Герберт Шильдт",
     category: "Java",
     images: ["/books/russian/book-2.jpg"],
-    link: "https://fzrovy24kbygdx6o.public.blob.vercel-storage.com/java-rukovodstvo-dlya-nachinayushih-9-izd.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/java-rukovodstvo-dlya-nachinayushih-9-izd.pdf",
     language: "Russian",
   },
   {
@@ -38,7 +38,7 @@ const bookItems: BookItem[] = [
     author: "Jos Dirksen",
     category: "Java Script",
     images: ["/books/english/book-3.jpg"],
-    link: "https://fzrovy24kbygdx6o.public.blob.vercel-storage.com/Learn%20Three.js.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/Learn%20Three.js.pdf",
     language: "English",
   },
   {
@@ -47,7 +47,7 @@ const bookItems: BookItem[] = [
     author: "Luis Atencio",
     category: "Java Script",
     images: ["/books/english/book-4.jpg"],
-    link: "https://fzrovy24kbygdx6o.public.blob.vercel-storage.com/Luis_Funkcionalnoe_programmirovanie_na_JavaScript_kak_uluchshit.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/Luis_Funkcionalnoe_programmirovanie_na_JavaScript_kak_uluchshit.pdf",
     language: "English",
   },
   {
@@ -56,7 +56,7 @@ const bookItems: BookItem[] = [
     author: "Ольга Назина",
     category: "Testing",
     images: ["/books/russian/book-5.jpg"],
-    link: "https://fzrovy24kbygdx6o.public.blob.vercel-storage.com/Chto_takoe_testirovanie.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/Chto_takoe_testirovanie.pdf",
     language: "Russian",
   },
   {
@@ -65,7 +65,7 @@ const bookItems: BookItem[] = [
     author: "Дэвид Фланаган",
     category: "Java Script",
     images: ["/books/russian/book-6.jpg"],
-    link: "https://fzrovy24kbygdx6o.public.blob.vercel-storage.com/JavaScript.%20%D0%9F%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5%20%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%2C%207-%D0%B5%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%5B2021%5D%20%D0%A4%D0%BB%D1%8D%D0%BD%D0%B0%D0%B3%D0%B0%D0%BD.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/JavaScript.%20%D0%9F%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5%20%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%2C%207-%D0%B5%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%5B2021%5D%20%D0%A4%D0%BB%D1%8D%D0%BD%D0%B0%D0%B3%D0%B0%D0%BD.pdf",
     language: "Russian",
   },
   {
@@ -74,7 +74,7 @@ const bookItems: BookItem[] = [
     author: "Бенджамин Дж. Эванс, Джеймс Гоф, Крис Ньюланд",
     category: "Java",
     images: ["/books/russian/book-7.jpg"],
-    link: "https://fzrovy24kbygdx6o.public.blob.vercel-storage.com/java_optimizaciya_programm_bendzhamin_2019.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/java_optimizaciya_programm_bendzhamin_2019.pdf",
     language: "Russian",
   },
   {
@@ -83,7 +83,7 @@ const bookItems: BookItem[] = [
     author: "Томас Хантер II, Брайан Инглиш",
     category: "Java Script",
     images: ["/books/russian/book-8.jpg"],
-    link: "https://arturkarapetyan-1981.github.io/books-IT/assets/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D0%BF%D0%BE%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B9%20Javascript.pdf",
+    link: "https://bve4fx8gd6d7sxrl.public.blob.vercel-storage.com/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D0%BF%D0%BE%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B8%CC%86%20Javascript.pdf",
     language: "Russian",
   },
   {
@@ -92,7 +92,7 @@ const bookItems: BookItem[] = [
     author: "Томас Марк Тиленс",
     category: "Java Script",
     images: ["/books/russian/book-9.jpg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/React_v_deystvii_2019_Tomas.pdf",
+    link: "https://bve4fx8gd6d7sxrl.public.blob.vercel-storage.com/React_v_deystvii_2019_Tomas.pdf",
     language: "Russian",
   },
   {
@@ -101,7 +101,7 @@ const bookItems: BookItem[] = [
     author: "Paul Done",
     category: "Database",
     images: ["/books/english/book-10.jpg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/Practical.MongoDB.Aggregations.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/Practical.MongoDB.Aggregations.pdf",
     language: "English",
   },
   {
@@ -110,7 +110,7 @@ const bookItems: BookItem[] = [
     author: "John Sharp",
     category: "C#",
     images: ["/books/english/book-11.jpg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/Microsoft%20Visual%20C%23%20Step%20by%20Step%2C%20Ninth%20Edition.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/Microsoft%20Visual%20C%23%20Step%20by%20Step%2C%20Ninth%20Edition.pdf",
     language: "English",
   },
   {
@@ -119,7 +119,7 @@ const bookItems: BookItem[] = [
     author: "Yang Hu",
     category: "Java Script",
     images: ["/books/english/book-12.jpg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/c_7_i__e2VFmzg.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/Graphic%20Javascript%20Algorithms.pdf",
     language: "English",
   },
   {
@@ -128,7 +128,7 @@ const bookItems: BookItem[] = [
     author: "Марк Дж. Прайс",
     category: "C#",
     images: ["/books/russian/book-13.jpg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/c_7_i__e2VFmzg.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/c_7_i__e2VFmzg.pdf",
     language: "Russian",
   },
   {
@@ -137,7 +137,7 @@ const bookItems: BookItem[] = [
     author: "Hassan Djirdeh, Nate Murray, and Ari Lerner",
     category: "Java Script",
     images: ["/books/english/book-14.jpg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/Fullstack%20Vue%203t.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/Fullstack%20Vue%203t.pdf",
     language: "English",
   },
   {
@@ -146,7 +146,7 @@ const bookItems: BookItem[] = [
     author: "Дэвид Гриффитс, Дон Гриффитс",
     category: "Java Script",
     images: ["/books/russian/book-15.jpg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/1032_React-sbornik-receptov.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/1032_React-sbornik-receptov.pdf",
     language: "Russian",
   },
   {
@@ -155,7 +155,7 @@ const bookItems: BookItem[] = [
     author: "Парлог Николай",
     category: "Java",
     images: ["/books/russian/book-16.jpg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B5%D0%B8%CC%86%20Java.pdf",
+    link: "https://bve4fx8gd6d7sxrl.public.blob.vercel-storage.com/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B5%D0%B8%CC%86%20Java.pdf",
     language: "Russian",
   },
   {
@@ -164,7 +164,7 @@ const bookItems: BookItem[] = [
     author: "Hugo Di Francesco",
     category: "Java Script",
     images: ["/books/english/book-17.jpeg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/di_francesco_h_javascript_design_patterns_deliver_fast_and_e.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/di_francesco_h_javascript_design_patterns_deliver_fast_and_e.pdf",
     language: "English",
   },
   {
@@ -173,7 +173,7 @@ const bookItems: BookItem[] = [
     author: "Raymond Camden, Hugo Di Francesco, Clifford Gurney, Philip Kirkbride, and Maya Shavin",
     category: "Java Script",
     images: ["/books/english/book-18.jpg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/Front-End%20Development%20Projects%20with%20Vue.js.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/Front-End%20Development%20Projects%20with%20Vue.js.pdf",
     language: "English",
   },
   {
@@ -182,7 +182,7 @@ const bookItems: BookItem[] = [
     author: "Кириченко А. В.",
     category: "Java Script",
     images: ["/books/russian/book-19.jpg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/JavaScript%20%D0%B4%D0%BB%D1%8F%20FrontEnd-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%BE%D0%B2.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/JavaScript%20%D0%B4%D0%BB%D1%8F%20FrontEnd-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%BE%D0%B2%20copy.pdf",
     language: "Russian",
   },
   {
@@ -191,7 +191,7 @@ const bookItems: BookItem[] = [
     author: "Натан Розенталс",
     category: "Java Script",
     images: ["/books/russian/book-20.jpg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/Izuchaem_TypeScript_3_%282019%29.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/Izuchaem_TypeScript_3_%282019%29%20%281%29.pdf",
     language: "Russian",
   },
   {
@@ -200,9 +200,27 @@ const bookItems: BookItem[] = [
     author: "David Knickerbocker",
     category: "Python",
     images: ["/books/english/book-21.jpg"],
-    link: "https://vigyhkysesyfimmh.public.blob.vercel-storage.com/29623753.pdf",
+    link: "https://tkynxinbfctbicfb.public.blob.vercel-storage.com/29623753.pdf",
     language: "English",
   },
+  {
+    id: 22,
+    title: "Секреты javascript ниндзя. 2-е изд.",
+    author: "Джон Резиг, Беар Бибо, Йосик Марас",
+    category: "Java Script",
+    images: ["/books/russian/book-22.jpg"],
+    link: "https://bve4fx8gd6d7sxrl.public.blob.vercel-storage.com/%D0%A1%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B%20javascript%20%D0%BD%D0%B8%D0%BD%D0%B4%D0%B7%D1%8F.pdf",
+    language: "Russian",
+  },
+  {
+    id: 23,
+    title: "Функциональное программирование на JavaScript",
+    author: "Луис Атенсио",
+    category: "Java Script",
+    images: ["/books/russian/book-23.jpg"],
+    link: "https://bve4fx8gd6d7sxrl.public.blob.vercel-storage.com/Luis_Funkcionalnoe_programmirovanie_na_JavaScript_kak_uluchshit.pdf",
+    language: "Russian",
+  }
 ];
 
 export default function Books() {

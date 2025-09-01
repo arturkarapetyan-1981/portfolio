@@ -27,11 +27,11 @@ const skillsRight: Skill[] = [
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="min-h-screen bg-linear-to-r from-cyan-900 to-blue-900 text-white py-12">
+    <section id="skills" className="min-h-screen py-32 bg-linear-to-r from-cyan-900 to-blue-900 text-white">
       <div className="container mx-auto px-4">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-white mb-4 mt-32">Skills</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">Skills</h2>
           <p className="text-white max-w-2xl mx-auto">
             I am a hard working professional who never stops learning and improving
             his skills. Responsibility and punctuality add value to the quality of my work.

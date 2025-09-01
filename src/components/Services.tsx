@@ -48,7 +48,7 @@ const services: Service[] = [
 
 const Services: FC = () => {
   return (
-    <section id="services" className="py-16 bg-gray-50 bg-gradient-to-r from-cyan-900 to-blue-900">
+    <section id="services" className="py-32 bg-gray-50 bg-gradient-to-r from-cyan-900 to-blue-900">
       <div className="container mx-auto px-4">
         {/* Section Title */}
         <div className="text-center mb-12">

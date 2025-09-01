@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="flex">
       <Header />
-      <div className="flex-1">
+      <div className="flex-1 select-none">
         <Hero />
         <About />
         <Skills />

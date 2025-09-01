@@ -27,7 +27,7 @@ const BackToTopButton: React.FC = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-8 right-8 flex items-center justify-center rounded-full shadow-md border-2 transition-opacity duration-300 ${
+      className={`fixed bottom-8 right-8 flex items-center justify-center rounded-full shadow-md border-2 transition-opacity duration-300 cursor-pointer ${
         isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
       style={{

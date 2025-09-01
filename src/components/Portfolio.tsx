@@ -217,7 +217,7 @@ export default function Portfolio() {
                 setActiveFilter(filter);
                 setVisibleCount(6); // reset visible count on filter change
               }}
-              className={`px-5 py-2 rounded-full border transition ${
+              className={`px-5 py-2 rounded-full border transition cursor-pointer ${
                 activeFilter === filter
                   ? "bg-[var(--red)] text-white border-none"
                   : "bg-white text-gray-700 border-gray-300 hover:bg-gray-100"
@@ -275,7 +275,7 @@ export default function Portfolio() {
           <div className="flex justify-center mt-10">
             <button
               onClick={() => setVisibleCount((prev) => prev + 6)}
-              className="px-6 py-3 bg-[var(--red)] text-white rounded-full hover:bg-red-700 transition"
+              className="px-6 py-3 bg-[var(--red)] text-white rounded-full hover:bg-[var(--dark-red)] transition cursor-pointer"
             >
               Show More
             </button>

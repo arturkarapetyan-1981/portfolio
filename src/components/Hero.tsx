@@ -11,12 +11,40 @@ interface MatrixItem {
   text: string;
 }
 
+const generateRandomCodeString = (length: number): string => {
+  const chars = "abcdefghijklmnopqrstuvwxyz0123456789";
+  return Array.from({ length }, () => chars[Math.floor(Math.random() * chars.length)]).join("");
+};
+
+const generateMatrixData = (): MatrixItem[] => {
+  return Array.from({ length: 30 }).map((_, i) => ({
+    left: `${i * 3.3}%`,
+    delay: `${Math.random() * 5}s`,
+    duration: `${Math.random() * 6 + 6}s`,
+    text: generateRandomCodeString(60),
+  }));
+};
+
 const Hero: React.FC = () => {
   const [currentText, setCurrentText] = useState("");
   const [roleIndex, setRoleIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const [matrixData, setMatrixData] = useState<MatrixItem[]>([]);
+
+  // ✅ placeholders (deterministic, no random = no hydration error)
+  const placeholderData: MatrixItem[] = Array.from({ length: 30 }).map((_, i) => ({
+    left: `${i * 3.3}%`,
+    delay: "0s",
+    duration: "10s",
+    text: "|", // simple line until hydration
+  }));
+
+  const [matrixData, setMatrixData] = useState<MatrixItem[]>(placeholderData);
+
+  // ✅ replace placeholders with random after hydration
+  useEffect(() => {
+    setMatrixData(generateMatrixData());
+  }, []);
 
   // Typing effect
   useEffect(() => {
@@ -41,17 +69,6 @@ const Hero: React.FC = () => {
     return () => clearTimeout(timeout);
   }, [charIndex, isDeleting, roleIndex]);
 
-  // Generate random falling code after hydration
-  useEffect(() => {
-    const matrixArray = Array.from({ length: 30 }).map((_, i) => ({
-      left: `${i * 3.3}%`,
-      delay: `${Math.random() * 5}s`,
-      duration: `${Math.random() * 6 + 6}s`,
-      text: generateRandomCodeString(60),
-    }));
-    setMatrixData(matrixArray);
-  }, []);
-
   return (
     <section
       id="hero"
@@ -59,7 +76,6 @@ const Hero: React.FC = () => {
     >
       {/* Background */}
       <div className="absolute inset-0 bg-black">
-        {/* Simple Code Rain */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {matrixData.map((item, i) => (
             <span
@@ -95,13 +111,8 @@ const Hero: React.FC = () => {
   );
 };
 
-// Generate simple alphanumeric code string
-function generateRandomCodeString(length: number): string {
-  const chars = "abcdefghijklmnopqrstuvwxyz0123456789";
-  return Array.from({ length }, () => chars[Math.floor(Math.random() * chars.length)]).join("");
-}
-
 export default Hero;
+
 
 
 

@@ -241,9 +241,9 @@ export default function Books() {
                 setActiveLanguage(lang);
                 setVisibleCount(6);
               }}
-              className={`px-5 py-2 rounded-full border transition ${
+              className={`px-5 py-2 rounded-full border transition cursor-pointer ${
                 activeLanguage === lang
-                  ? "bg-indigo-600 text-white border-none"
+                  ? "bg-[var(--red)] text-white border-none"
                   : "bg-white text-gray-700 border-gray-300 hover:bg-gray-100"
               }`}
             >
@@ -261,9 +261,9 @@ export default function Books() {
                 setActiveCategory(filter);
                 setVisibleCount(6);
               }}
-              className={`px-5 py-2 rounded-full border transition ${
+              className={`px-5 py-2 rounded-full border transition cursor-pointer ${
                 activeCategory === filter
-                  ? "bg-indigo-600 text-white border-none"
+                  ? "bg-[var(--red)] text-white border-none"
                   : "bg-white text-gray-700 border-gray-300 hover:bg-gray-100"
               }`}
             >
@@ -316,7 +316,7 @@ export default function Books() {
           <div className="flex justify-center mt-10">
             <button
               onClick={() => setVisibleCount((prev) => prev + 6)}
-              className="px-6 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition"
+              className="px-6 py-3 bg-[var(--red)] text-white rounded-full hover:bg-[var(--dark-red)] transition cursor-pointer"
             >
               Show More
             </button>

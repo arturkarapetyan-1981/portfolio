@@ -37,7 +37,7 @@ const About: React.FC = () => {
           {/* Left Image */}
           <div className="lg:col-span-4 flex justify-center">
             <Image
-              src="/avatar.jpg"
+              src="/avatar.jpeg"
               alt="My Photo"
               width={350}
               height={350}

@@ -63,34 +63,34 @@ const About: React.FC = () => {
                 <li>
                   <strong>Website:</strong>{" "}
                   <a
-                    href="https://karart1981.github.io/"
+                    href="https://portfolio-nb75.vercel.app/"
                     className="text-gray-300 hover:underline"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    karart1981.github.io
+                    Portfolio website
                   </a>
                 </li>
                 <li>
                   <strong>GitHub:</strong>{" "}
                   <a
-                    href="https://github.com/karart1981"
+                    href="https://github.com/arturkarapetyan-1981"
                     className="text-gray-300 hover:underline"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    github.com/karart1981
+                    https://github.com/arturkarapetyan-1981
                   </a>
                 </li>
                 <li>
                   <strong>LinkedIn:</strong>{" "}
                   <a
-                    href="https://www.linkedin.com/in/karart1981/"
+                    href="https://www.linkedin.com/in/artur-karapetyan-b24a26235/"
                     className="text-gray-300 hover:underline"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    linkedin.com/in/karart1981
+                    https://www.linkedin.com/in/artur-karapetyan-b24a26235/
                   </a>
                 </li>
                 <li>
@@ -118,10 +118,10 @@ const About: React.FC = () => {
                 <li>
                   <strong>E-mail:</strong>{" "}
                   <a
-                    href="mailto:karapart1981@gmail.com"
+                    href="mailto:arturkarapetyanforwork@gmail.com"
                     className="text-gray-200 hover:underline"
                   >
-                    karapart1981@gmail.com
+                    arturkarapetyanforwork@gmail.com
                   </a>
                 </li>
                 <li>

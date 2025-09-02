@@ -57,7 +57,7 @@ const Contact: FC = () => {
               <Mail className="text-pink-500 w-6 h-6" />
               <div>
                 <h4 className="font-semibold text-gray-800">Email:</h4>
-                <p className="text-gray-600">karapart1981@gmail.com</p>
+                <p className="text-gray-600">arturkarapetyanforwork@gmail.com</p>
               </div>
             </div>
 

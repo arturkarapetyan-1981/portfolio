@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from 'next/link'
 
 const Resume: React.FC = () => {
   return (
@@ -29,20 +30,27 @@ const Resume: React.FC = () => {
               </h3>
               <h4 className="text-xl font-bold">Artur Karapetyan</h4>
               <p className="italic text-gray-200">
-                Front-End Developer & Web Designer with 3 years experience.
+                Front-End Developer & Web Designer with 4 years experience.
               </p>
               <ul className="mt-4 space-y-2">
                 <li>📍 Yerevan, Armenia</li>
                 <li>
                   📞{" "}
-                  <a
+                  <Link
                     href="tel:0037494662370"
                     className="text-pink-300 hover:underline"
                   >
                     (+374) 94 662 370
-                  </a>
+                  </Link>
                 </li>
-                <li>✉️ karapart1981@gmail.com</li>
+                <li>✉️ 
+                  <Link
+                    href= "mailto: arturkarapetyanforwork@gmail.com"
+                    className="text-pink-300 hover:underline"
+                  >
+                    arturkarapetyanforwork@gmail.com
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -63,7 +71,7 @@ const Resume: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg">HS Rocket</h4>
-                  <h5 className="text-sm text-gray-200">2022 Mar – 2022 Nov</h5>
+                  <h5 className="text-sm text-gray-200">2022 May – 2022 Nov</h5>
                   <p className="italic">JavaScript</p>
                   <p className="mt-2 text-gray-200">
                     Intensive training with real projects, monthly exams, and
@@ -72,7 +80,7 @@ const Resume: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg">Picsart Academy</h4>
-                  <h5 className="text-sm text-gray-200">2022 Dec – 2024 Nov</h5>
+                  <h5 className="text-sm text-gray-200">2023 Jan – 2024 Nov</h5>
                   <p className="italic">
                     OOP, JavaScript, React.js, Redux, TypeScript, Next.js, Linux
                   </p>
@@ -94,27 +102,19 @@ const Resume: React.FC = () => {
               </h3>
               <div className="space-y-8">
                 <div>
-                  <h4 className="font-bold text-lg">HS Rocket</h4>
-                  <h5 className="text-sm text-gray-200">2022 Dec – Present</h5>
-                  <p className="italic">Software Developer</p>
+                  <h4 className="font-bold text-lg">Upwork</h4>
+                  <h5 className="text-sm text-gray-200">2021 May – Present</h5>
+                  <p className="italic">Freelancer</p>
                   <p className="mt-2 text-gray-200">
-                    Worked on multiple projects in a collaborative team.
-                  </p>
-                </div>
-                <div>
-                  <h4 className="font-bold text-lg">TUMO Labs</h4>
-                  <h5 className="text-sm text-gray-200">2023 Jun – 2023 Dec</h5>
-                  <p className="italic">Software Developer</p>
-                  <p className="mt-2 text-gray-200">
-                    Contributed to multiple innovative projects in a united
-                    group.
+                    Successfully delivered freelance projects for international
+                    clients.
                   </p>
                 </div>
                 <div>
                   <h4 className="font-bold text-lg">
                     Code Republic Lab, Picsart Academy
                   </h4>
-                  <h5 className="text-sm text-gray-200">2023 Jun – 2024 Nov</h5>
+                  <h5 className="text-sm text-gray-200">2023 Jan – 2024 Feb</h5>
                   <p className="italic">Software Developer</p>
                   <p className="mt-2 text-gray-200">
                     Built real-world projects in parallel with studies at
@@ -122,12 +122,12 @@ const Resume: React.FC = () => {
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg">Upwork</h4>
-                  <h5 className="text-sm text-gray-200">2022 Oct – Present</h5>
-                  <p className="italic">Freelancer</p>
+                  <h4 className="font-bold text-lg">Full Learning</h4>
+                  <h5 className="text-sm text-gray-200">2025 June – 2025 Aug</h5>
+                  <p className="italic">Software Developer</p>
                   <p className="mt-2 text-gray-200">
-                    Successfully delivered freelance projects for international
-                    clients.
+                    Contributed to multiple innovative projects in a united
+                    group.
                   </p>
                 </div>
               </div>
